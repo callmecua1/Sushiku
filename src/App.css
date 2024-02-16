@@ -1,0 +1,180 @@
+body,
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* this is for custom css */
+
+.header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 1em;
+  background-image: url(/src/assets//img/sushiv.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tagline-button {
+  margin-top: 1em;
+}
+
+.tagline-button button {
+  width: 180px;
+  height: 50px;
+  border: 1px solid white;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+#reservation-button {
+  background-color: red;
+  border: none;
+}
+
+.about-textbox button {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  border: 1px solid red;
+}
+
+.about-img {
+  width: 48%;
+  border: 2px solid white;
+  margin: 5px;
+}
+
+.widget {
+  height: 450px;
+}
+
+.book-form {
+  width: 300px;
+  height: 50px;
+  outline: none;
+}
+
+#book-button {
+  width: 300px;
+  background-color: red;
+}
+
+.chefs-id {
+  border: 2px solid grey;
+}
+
+.testimonials-slide {
+  cursor: default;
+  scroll-behavior: smooth;
+}
+
+.contact-icon {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media (min-width: 640px) {
+  .book-form {
+    width: 350px;
+    height: 50px;
+  }
+
+  .reservation-text {
+    width: 350px;
+  }
+
+  #book-button {
+    width: 350px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    margin-top: 2em;
+  }
+
+  .tagline-button button {
+    width: 200px;
+    height: 55px;
+  }
+
+  .book-form {
+    width: 430px;
+    height: 50px;
+    font-size: 25px;
+  }
+
+  .reservation-text {
+    width: 430px;
+    font-size: 20px;
+  }
+
+  #book-button {
+    width: 430px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* .menu-picture {
+    height: 500px;
+  } */
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .book-form {
+    width: 230px;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .reservation-text {
+    width: 470px;
+  }
+
+  #book-button {
+    width: 470px;
+  }
+
+  .ads {
+    width: 100%;
+    height: 80vh;
+    margin-top: 1em;
+    background-image: url(/src/assets/img/sushiwide.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1536px) {
+  .book-form {
+    width: 300px;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .reservation-text {
+    width: 610px;
+  }
+
+  #book-button {
+    width: 610px;
+  }
+}
