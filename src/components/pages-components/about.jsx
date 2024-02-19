@@ -24,14 +24,14 @@ const About = () => {
       <div className="about-image w-full h-80 flex justify-center mt-6 lg:w-3/5 lg:h-96">
         <div className="left-img about-img xl:w-2/5">
           <img
-            src="/src/assets/food/food9.jpg"
+            src="./src/assets/food/food9.jpg"
             className=" w-full h-full object-cover object-center"
             alt="image"
           />
         </div>
         <div className="right-img about-img xl:w-2/5">
           <img
-            src="/src/assets/img/salmon.jpg"
+            src="./src/assets/img/salmon.jpg"
             className=" w-full h-full object-cover object-center"
             alt="image"
           />

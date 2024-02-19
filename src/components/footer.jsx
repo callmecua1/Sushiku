@@ -9,17 +9,17 @@ const Footer = () => {
         <hr className="w-1/4 mb-10 h-1 rounded-full bg-red-500" />
         <div className="social-media w-full flex justify-center items-center">
           <img
-            src="/src/assets/contact/email.png"
+            src="./src/assets/contact/email.png"
             className=" w-12 h-12 md:w-14 md:h-14 xl:w-10 xl:h-10 "
             alt="feane"
           />
           <img
-            src="/src/assets/contact/instagram.png"
+            src="./src/assets/contact/instagram.png"
             className=" w-12 h-12 md:w-14 md:h-14 xl:w-10 xl:h-10 ml-8 mr-8"
             alt="feane"
           />
           <img
-            src="/src/assets/contact/phone.png"
+            src="./src/assets/contact/phone.png"
             className=" w-12 h-12 md:w-14 md:h-14 xl:w-10 xl:h-10"
             alt="feane"
           />

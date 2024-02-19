@@ -18,7 +18,7 @@ const Contact = () => {
         <div className="phone-icon w-full h-1/4 flex mt-20 md:w-3/4 ">
           <div className="phone-img w-1/4 h-full flex justify-center items-center">
             <img
-              src="/src/assets/contact/phone.png"
+              src="./src/assets/contact/phone.png"
               className=" w-3/5 md:w-1/2 lg:w-3/4 xl:w-2/4 h-1/2 lg:h-full object-cover object-center"
               alt=""
             />
@@ -32,7 +32,7 @@ const Contact = () => {
         <div className="corporate-phone-icon flex w-full md:w-3/4 h-1/4 mt-10 ">
           <div className="phone-img w-1/4 h-full flex justify-center items-center ">
             <img
-              src="/src/assets/contact/phone.png"
+              src="./src/assets/contact/phone.png"
               className=" w-3/5 md:w-1/2 h-1/2 lg:w-3/4 xl:w-2/4  lg:h-full object-cover object-center"
               alt=""
             />

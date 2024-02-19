@@ -74,7 +74,7 @@ function App() {
       <div className="navbar">
         <h2 className="navbar-title">Sushiku</h2>
         <img
-          src="/src/assets/icon/settings.png"
+          src="./src/assets/icon/settings.png"
           id="open-tab-button"
           className="openTab-btn"
           onClick={() => openTab()}
@@ -89,7 +89,7 @@ function App() {
             <li>Whats New?</li>
           </ul>
           <img
-            src="/src/assets/icon/close (1).png"
+            src="./src/assets/icon/close (1).png"
             id="close-tab-button"
             className="closeTab-btn"
             onClick={() => closeTab()}

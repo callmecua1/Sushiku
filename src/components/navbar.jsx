@@ -29,7 +29,7 @@ export const Navbar = () => {
     return(
         <div className="navbar">
             <h2 className='navbar-title'>Sushiku</h2>
-            <img src="/src/assets/icon/settings.png" id='open-tab-button' className='openTab-btn' onClick={()=>openTab()} alt="button" />
+            <img src="./src/assets/icon/settings.png" id='open-tab-button' className='openTab-btn' onClick={()=>openTab()} alt="button" />
             <nav id='navbar-tab'>
                 <ul className=' lg:font-semibold'>
                     <li >Home</li>
@@ -38,7 +38,7 @@ export const Navbar = () => {
                     <li>Contact Us</li>
                     <li>Whats New?</li>
                 </ul>
-                <img src="/src/assets/icon/close (1).png" id='close-tab-button' className='closeTab-btn' onClick={()=>closeTab()} alt="button" />
+                <img src="./src/assets/icon/close (1).png" id='close-tab-button' className='closeTab-btn' onClick={()=>closeTab()} alt="button" />
             </nav>
         </div>
     )

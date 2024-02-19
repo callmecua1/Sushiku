@@ -3,7 +3,7 @@ const Widget = () => {
     <>
       <div className=" widget seafood w-11/12 lg:w-3/4 lg:mb-0 mb-5 relative flex justify-center items-center">
         <img
-          src="/src/assets/img/sushiwide.jpg"
+          src="./src/assets/img/sushiwide.jpg"
           className=" w-full h-full object-cover object-center"
           alt="image"
         />
@@ -17,9 +17,9 @@ const Widget = () => {
           </p>
         </div>
       </div>
-      <div className=" widget onigiri bg-black w-11/12 lg:w-3/4 lg:mb-0 mb-5 relative flex justify-center items-center">
+      <div className=" widget onigiri bg-white w-11/12 lg:w-3/4 lg:mb-0 mb-5 relative flex justify-center items-center">
         <img
-          src="/src/assets/img/salmon.jpg"
+          src="./src/assets/img/salmon.jpg"
           className=" w-full h-full object-cover object-center"
           alt="image"
         />
@@ -35,7 +35,7 @@ const Widget = () => {
       </div>
       <div className=" widget ramen w-11/12 lg:w-3/4 relative flex justify-center items-center">
         <img
-          src="/src/assets/img/ramen.jpg"
+          src="./src/assets/img/ramen.jpg"
           className=" w-full h-full object-cover object-center"
           alt="image"
         />

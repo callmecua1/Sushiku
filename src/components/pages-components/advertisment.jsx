@@ -47,7 +47,7 @@ const Advertisment = () => {
 
       <div className="menu-picture w-10/12 mt-20 h-96 lg:w-2/3 xl:w-2/5 lg:h-[32rem] lg:mt-0  bg-black ">
         <img
-          src="/src/assets/food/food9.jpg"
+          src="./src/assets/food/food9.jpg"
           className=" w-full h-full object-cover object-center"
           alt="food"
         />
